@@ -1,0 +1,57 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    height: 70px;
+    background-color: darkgray;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+nav > ul > li{
+    list-style-type: none;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+nav > ul > li > a{
+    text-decoration: none;
+}
+
+.cardList{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+#item{
+    padding: 30px;
+}
+.complete{
+    background-color: greenyellow;
+}
+.incomplete {
+    background-color: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
